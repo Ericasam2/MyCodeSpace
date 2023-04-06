@@ -12,3 +12,15 @@ git add .
 git commit -m "<context>"
 git push
 ```
+
+## Upload Repositry formula
+```
+git init
+git remote add origin <url_to_origin>
+git pull
+git add .
+git commit -m "<context>"
+git push --set-upstream origin <master>
+git checkout <main>
+git merge <master> --allow-unrelated-histories
+```
